@@ -1,6 +1,6 @@
 # PubMineLLM
 
-Primarily developed by Matt Ataso in He Lab, PubMineLLM takes inputs of PMIDs in csv, space seperated, or manual inputs. The program outputs a vaccine csv with fields:
+Primarily developed by Matt Asato in He Lab, PubMineLLM takes inputs of PMIDs in csv, space seperated, or manual inputs. The program outputs a vaccine csv with fields:
 - pmcid
 - vaccine_name
 - vaccine_target_pathogen 
