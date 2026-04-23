@@ -19,6 +19,8 @@ We have tested our program in the vaccine domain. Specifically, our test program
 
 The program utilizes LLMs to parse and read full-legnth papers and retrieves the specific fields. Note that internally the program is called "PaperToData". 
 
+Also noted that this version overlaps but differs in many ways from the VaxLLM program: https://github.com/VIOLINet/VaxLLM.  
+
 ## Table of Contents 
 - [Installation](#installation) 
 - [Usage](#usage) 
