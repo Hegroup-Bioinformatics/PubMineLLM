@@ -1,6 +1,9 @@
 # PubMineLLM
 
-Primarily developed by Matt Asato in He Lab, PubMineLLM takes inputs of PMIDs in csv, space seperated, or manual inputs. The program outputs a vaccine csv with fields:
+Primarily developed by Matt Asato in He Lab, PubMineLLM takes inputs of PMIDs in csv, space seperated, or manual inputs. 
+This program can work with any CSV format. You just provide any CSV header column names, and our program will output information from individual papers for you.
+
+We have tested our program in the vaccine domain. Specifically, our test program outputs a vaccine csv with fields:
 - pmcid
 - vaccine_name
 - vaccine_target_pathogen 
@@ -14,7 +17,8 @@ Primarily developed by Matt Asato in He Lab, PubMineLLM takes inputs of PMIDs in
 - vaccine_antigen 
 - vaccine_formulation 
 
-The program utilizes LLMs to parse and read full-legnth papers and retrieves the specific fields.
+The program utilizes LLMs to parse and read full-legnth papers and retrieves the specific fields. Note that internally the program is called "PaperToData". 
+
 ## Table of Contents 
 - [Installation](#installation) 
 - [Usage](#usage) 
